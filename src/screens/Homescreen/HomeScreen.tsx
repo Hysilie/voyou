@@ -1,4 +1,4 @@
-import React, { useMemo, useState, useContext, type FC } from "react";
+import { useMemo, useState, useContext, type FC } from "react";
 import "../../theme.css";
 import { useI18n } from "../../i18n";
 import ThemeSwitch from "../../components/ThemeSwitch";

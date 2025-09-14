@@ -1,4 +1,4 @@
-import React, { type FC } from "react";
+import { type FC } from "react";
 import KPI from "../../../components/KPI";
 import { currency } from "../../../utils/constants";
 import { useI18n } from "../../../i18n";

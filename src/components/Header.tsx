@@ -1,11 +1,11 @@
-import React, { type FC } from "react";
+import { type FC } from "react";
 
 interface HeaderProps {
   theme: string;
   t: (key: string) => string;
 }
 
-const Header: FC<HeaderProps> = ({ theme, t }) => {
+const Header: FC<HeaderProps> = ({ theme }) => {
   return (
     <div>
       <h1

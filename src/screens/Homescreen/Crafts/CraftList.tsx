@@ -1,4 +1,4 @@
-import React, { type FC } from "react";
+import { type FC } from "react";
 import SearchInput from "../../../components/SearchInput";
 import Card from "../../../components/Card";
 import Stepper from "../../../components/Stepper";

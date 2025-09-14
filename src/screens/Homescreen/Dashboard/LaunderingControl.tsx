@@ -1,4 +1,4 @@
-import React, { useEffect, useState, type FC } from "react";
+import { useEffect, useState, type FC } from "react";
 
 const clamp = (n: number, min: number, max: number) =>
   Math.min(max, Math.max(min, n));
