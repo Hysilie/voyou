@@ -1,0 +1,18 @@
+.econ-anim-enter {
+  opacity: 0;
+  transform: translateY(-10px) scale(0.98);
+}
+.econ-anim-enter-active {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  transition: opacity 200ms, transform 200ms;
+}
+.econ-anim-exit {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+.econ-anim-exit-active {
+  opacity: 0;
+  transform: translateY(-10px) scale(0.98);
+  transition: opacity 200ms, transform 200ms;
+}

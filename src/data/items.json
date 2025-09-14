@@ -1,0 +1,270 @@
+{
+  "craft": [
+    {
+      "id": "couteau",
+      "name": "Couteau",
+      "emoji": "🔪",
+      "sellPriceClean": 1000,
+      "sellPriceDirty": 600,
+      "recipe": [
+        { "itemId": "plastique", "qty": 6 },
+        { "itemId": "ruban-adhesif", "qty": 6 },
+        { "itemId": "dentier", "qty": 6 },
+        { "itemId": "panthere", "qty": 2 }
+      ]
+    },
+    {
+      "id": "zip",
+      "name": "Zip Tie x6",
+      "emoji": "📦",
+      "sellPriceClean": 1200,
+      "sellPriceDirty": 600,
+      "recipe": [
+        { "itemId": "aluminium", "qty": 2 },
+        { "itemId": "plastique", "qty": 6 },
+        { "itemId": "sac-a-main", "qty": 4 },
+        { "itemId": "bracelet", "qty": 4 }
+      ]
+    },
+    {
+      "id": "crochet",
+      "name": "Kit de crochetage miteux x6",
+      "emoji": "🪝",
+      "sellPriceClean": 1500,
+      "sellPriceDirty": 600,
+      "recipe": [
+        { "itemId": "console", "qty": 2 },
+        { "itemId": "aluminium", "qty": 4 },
+        { "itemId": "plastique", "qty": 4 },
+        { "itemId": "ruban-adhesif", "qty": 6 }
+      ]
+    },
+    {
+      "id": "ticket",
+      "name": "Ticket de parking x6",
+      "emoji": "🎫",
+      "sellPriceClean": 2000,
+      "sellPriceDirty": 600,
+      "recipe": [
+        { "itemId": "smartphone", "qty": 3 },
+        { "itemId": "bon-achat", "qty": 10 },
+        { "itemId": "ruban-adhesif", "qty": 2 },
+        { "itemId": "console", "qty": 5 }
+      ]
+    },
+    {
+      "id": "era",
+      "name": "Paquet de cigarette \"Era\"",
+      "emoji": "🚬",
+      "sellPriceClean": 1000,
+      "sellPriceDirty": 600,
+      "recipe": [
+        { "itemId": "dentifrice", "qty": 2 },
+        { "itemId": "cigarette", "qty": 10 },
+        { "itemId": "bon-achat", "qty": 2 },
+        { "itemId": "console", "qty": 2 }
+      ]
+    },
+    {
+      "id": "tenue",
+      "name": "Tenue de travail x6",
+      "emoji": "👕",
+      "sellPriceClean": 3000,
+      "sellPriceDirty": 600,
+      "recipe": [
+        { "itemId": "console", "qty": 4 },
+        { "itemId": "cigarette", "qty": 2 },
+        { "itemId": "ruban-adhesif", "qty": 2 },
+        { "itemId": "bracelet", "qty": 3 },
+        { "itemId": "smartphone", "qty": 3 }
+      ]
+    },
+    {
+      "id": "antistress",
+      "name": "Antistress x6",
+      "emoji": "🧘",
+      "sellPriceClean": 800,
+      "sellPriceDirty": 600,
+      "recipe": [
+        { "itemId": "dentier", "qty": 2 },
+        { "itemId": "sac-a-main", "qty": 2 },
+        { "itemId": "cigarette", "qty": 6 },
+        { "itemId": "dentifrice", "qty": 6 }
+      ]
+    },
+    {
+      "id": "9x19",
+      "name": "Munitions 9x19",
+      "emoji": "🔫",
+      "sellPriceClean": 5000,
+      "sellPriceDirty": 1000,
+      "recipe": [
+        { "itemId": "panthere", "qty": 4 },
+        { "itemId": "bracelet", "qty": 4 },
+        { "itemId": "sac-a-main", "qty": 2 },
+        { "itemId": "dentier", "qty": 6 }
+      ]
+    },
+    {
+      "id": "pistolet",
+      "name": "Pistolet",
+      "emoji": "🔫",
+      "sellPriceClean": 3000,
+      "sellPriceDirty": 4800,
+      "recipe": [
+        { "itemId": "panthere", "qty": 6 },
+        { "itemId": "dentifrice", "qty": 6 },
+        { "itemId": "aluminium", "qty": 10 },
+        { "itemId": "plastique", "qty": 8 },
+        { "itemId": "sac-a-main", "qty": 10 }
+      ]
+    }
+  ],
+  "vandalism": [
+    {
+      "id": "silicon",
+      "name": "Tube",
+      "emoji": "",
+      "dirtyValue": 1200,
+      "qty": 0
+    },
+    {
+      "id": "panthere",
+      "name": "Panthère",
+      "emoji": "🐆",
+      "dirtyValue": 1200,
+      "qty": 0
+    },
+    {
+      "id": "console",
+      "name": "Console",
+      "emoji": "🎮",
+      "dirtyValue": 2500,
+      "qty": 0
+    },
+    {
+      "id": "cigarette",
+      "name": "Cigarette",
+      "emoji": "🚬",
+      "dirtyValue": 50,
+      "qty": 0
+    },
+    {
+      "id": "plastique",
+      "name": "Plastique",
+      "emoji": "🧩",
+      "dirtyValue": 10,
+      "qty": 0
+    },
+    {
+      "id": "dentifrice",
+      "name": "Dentifrice",
+      "emoji": "🪥",
+      "dirtyValue": 15,
+      "qty": 0
+    },
+    {
+      "id": "ruban-adhesif",
+      "name": "Ruban adhésif",
+      "emoji": "📦",
+      "dirtyValue": 5,
+      "qty": 0
+    }
+  ],
+  "racket": [
+    {
+      "id": "sac-a-main",
+      "name": "Sac à main",
+      "emoji": "👜",
+      "dirtyValue": 300,
+      "qty": 0
+    },
+    {
+      "id": "bon-achat",
+      "name": "Bon d'achat",
+      "emoji": "🎟️",
+      "dirtyValue": 50,
+      "qty": 0
+    },
+    {
+      "id": "dentier",
+      "name": "Dentier",
+      "emoji": "🦷",
+      "dirtyValue": 100,
+      "qty": 0
+    },
+    {
+      "id": "bracelet",
+      "name": "Bracelet",
+      "emoji": "📿",
+      "dirtyValue": 25,
+      "qty": 0
+    },
+    {
+      "id": "smartphone",
+      "name": "Smartphone",
+      "emoji": "📱",
+      "dirtyValue": 200,
+      "qty": 0
+    }
+  ],
+  "robbery": [
+    {
+      "id": "sac-argent",
+      "name": "Petit sac d'argent",
+      "emoji": "💰",
+      "dirtyValue": 800,
+      "qty": 0
+    },
+    {
+      "id": "sac-argent-rare",
+      "name": "Petit sac d'argent rare",
+      "emoji": "💎",
+      "dirtyValue": 1600,
+      "qty": 0
+    }
+  ],
+  "trash": [
+    {
+      "id": "ferraille",
+      "name": "Morceau de ferraille",
+      "emoji": "🔩",
+      "dirtyValue": 15,
+      "qty": 0
+    },
+    {
+      "id": "aluminium",
+      "name": "Aluminium",
+      "emoji": "🥫",
+      "dirtyValue": 20
+    },
+    {
+      "id": "chaine-or",
+      "name": "Chaîne en or",
+      "emoji": "📿",
+      "dirtyValue": 35,
+      "qty": 0
+    },
+    {
+      "id": "montre-or",
+      "name": "Montre en or",
+      "emoji": "⌚",
+      "dirtyValue": 35,
+      "qty": 0
+    },
+    {
+      "id": "bague-diamant",
+      "name": "Bague en diamant",
+      "emoji": "💍",
+      "dirtyValue": 75,
+      "qty": 0
+    },
+    {
+      "id": "caoutchouc",
+      "name": "Morceau de caoutchouc",
+      "emoji": "",
+      "dirtyValue": 20,
+      "qty": 0
+    }
+  ]
+}

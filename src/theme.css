@@ -1,0 +1,35 @@
+/* theme.css */
+
+.theme-red {
+  --bg: #0d0c0c;
+  --surface: #2d1515;
+  --ink: #f8eaea;
+  --muted: #c9a5a5;
+  --line: #3b1f1f;
+  --brand: #ef4444;
+  --brand-rgb: 239, 68, 68; /* + */
+  --brand-weak: #7f1d1d;
+  --good: #34d399;
+  --bad: #f87171;
+  --chip-bg: #4c1d1d;
+  --chip-border: #7f1d1d;
+  --important-text: #ff2626;
+  --chip-text: #fecaca;
+}
+
+.theme-blue {
+  --bg: #0b1220;
+  --surface: #111827;
+  --ink: #e5e7eb;
+  --muted: #9ca3af;
+  --line: #1f2937;
+  --brand: #3b82f6;
+  --brand-rgb: 59, 130, 246; /* + */
+  --brand-weak: #1e3a8a;
+  --good: #34d399;
+  --bad: #f87171;
+  --chip-bg: #152238;
+  --chip-border: #1f3a5f;
+  --important-text: #70d1ff;
+  --chip-text: #bfdbfe;
+}

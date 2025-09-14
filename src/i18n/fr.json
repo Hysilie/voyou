@@ -1,0 +1,72 @@
+{
+  "app": {
+    "title": "Voyous",
+    "subtitle": ""
+  },
+  "actions": {
+    "addRow": "Ajouter une ligne"
+  },
+  "dashboard": {
+    "shoppingList": "Liste de course",
+    "bagCalc": "Calculatrice",
+    "noSelection": "Aucun craft sélectionné",
+    "totals": "Total"
+  },
+  "tabs": {
+    "recipes": "Recettes",
+    "items": "Objets"
+  },
+  "theme": {
+    "red": "🔪",
+    "blue": "🐺"
+  },
+  "controls": {
+    "laundering": "Taux du blanchiment"
+  },
+  "sections": {
+    "recipes": "Recettes craft",
+    "items": "Tous les objets"
+  },
+  "placeholders": {
+    "searchRecipe": "Rechercher une recette…",
+    "searchItem": "Rechercher un objet…"
+  },
+  "labels": {
+    "qty": "Qté",
+    "ingredientsFor": "Ingrédients pour",
+    "items": "items"
+  },
+  "econ": {
+    "open": "+",
+    "close": "–",
+    "cost": "Coût",
+    "sell": "Prix particuliers :"
+  },
+  "filters": {
+    "all": "Toutes"
+  },
+  "categories": {
+    "vandalism": "Vandalisme",
+    "racket": "Racket",
+    "robbery": "Vol",
+    "trash": "Déchets"
+  },
+  "table": {
+    "category": "Catégorie",
+    "item": "Objet",
+    "dirty": "Sale",
+    "clean": "Propre",
+    "note": "* Valeurs « propre » calculées à {pct}% de taux de blanchiment",
+    "done": "check"
+  },
+  "nav": {
+    "dashboard": "Dashboard"
+  },
+  "bag": {
+    "label": "Sacs",
+    "qty": "Qté",
+    "dirtyUnit": "Unité sale",
+    "lineDirty": "Montant total sale",
+    "lineClean": "Montant total propre*"
+  }
+}
