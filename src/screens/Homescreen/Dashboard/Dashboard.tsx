@@ -1,4 +1,4 @@
-import { type FC, useMemo, useState } from "react";
+import { type FC, useEffect, useMemo, useState } from "react";
 import Card from "../../../components/Card";
 import { currency } from "../../../utils/constants";
 import data from "../../../data/items.json";
@@ -63,10 +63,22 @@ const Dashboard: FC<{
   const [bags, setBags] = useState<BagRow[]>(
     Array.from({ length: 5 }, (_, i) => ({
       id: i + 1,
-      bagId: bagOptions[0]?.id ?? null,
+      bagId: null,
       qty: 0,
     }))
   );
+
+  useEffect(() => {
+    if (!bagOptions.length) return;
+    setBags((rows) =>
+      rows.map(
+        (row, idx) =>
+          row.bagId && bagMap[row.bagId] // déjà défini et valide -> on garde
+            ? row
+            : { ...row, bagId: bagOptions[idx % bagOptions.length].id } // on assigne
+      )
+    );
+  }, [bagOptions, bagMap]);
 
   return (
     <div className="gap-4 grid grid-cols-1 xl:grid-cols-3">
